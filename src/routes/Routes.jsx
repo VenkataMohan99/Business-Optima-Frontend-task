@@ -14,8 +14,8 @@ export default function AppRoutes() {
                         <Signup />
                     } />
                 <Route
-                    path="/login"
-                    element={
+                     path="/login"
+                     element={
                         <Login />
                     } />
             </Routes>
