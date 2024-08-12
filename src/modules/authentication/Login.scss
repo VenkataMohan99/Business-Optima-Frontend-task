@@ -1,0 +1,40 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .logo {
+        width: 57px;
+    }
+
+    .loginButton {
+        border-radius: 26px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.register {
+    color: blue;
+
+}
+
+.password {
+    position: relative;
+
+    .password-eye {
+        position: absolute;
+        right: 8px;
+        top: 14px;
+    }
+
+}
